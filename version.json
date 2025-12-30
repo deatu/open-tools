@@ -1,0 +1,16 @@
+{
+  "stable": {
+    "commit": "d52b8b2",
+    "date": "2025-12-31 03:24:11",
+    "files": [
+      "zipArchiver.js"
+    ]
+  },
+  "dev": {
+    "commit": "d52b8b2",
+    "date": "2025-12-31 03:24:30",
+    "files": [
+      "zipArchiver-dev.js"
+    ]
+  }
+}
