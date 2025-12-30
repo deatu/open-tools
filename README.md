@@ -23,7 +23,7 @@ Base URL: `https://cdn.jsdelivr.net/gh/deatu/open-tools/`
 
 **zipArchiver（統一版）**
 ```javascript
-javascript:(function(){var k='za_t',n=Date.now(),l=+localStorage.getItem(k)||0,d=n-l<600;localStorage.setItem(k,n);if(d){clearTimeout(window._za);var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/deatu/open-tools/zipArchiver-dev.js';document.body.appendChild(s)}else{window._za=setTimeout(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/deatu/open-tools/zipArchiver.js';document.body.appendChild(s)},600)}})();
+javascript:(function(){var k='za_t',n=Date.now(),l=+localStorage.getItem(k)||0,d=n-l<600;localStorage.setItem(k,n);if(d){clearTimeout(window._za);var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/deatu/open-tools@main/zipArchiver-dev.js';document.body.appendChild(s)}else{window._za=setTimeout(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/deatu/open-tools@main/zipArchiver.js';document.body.appendChild(s)},600)}})();
 ```
 
 | 操作 | 結果 |
@@ -36,12 +36,12 @@ javascript:(function(){var k='za_t',n=Date.now(),l=+localStorage.getItem(k)||0,d
 
 **zipArchiver 安定版**
 ```javascript
-javascript:(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/deatu/open-tools/zipArchiver.js';document.body.appendChild(s);})();
+javascript:(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/deatu/open-tools@main/zipArchiver.js';document.body.appendChild(s);})();
 ```
 
 **zipArchiver 開発版**
 ```javascript
-javascript:(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/deatu/open-tools/zipArchiver-dev.js';document.body.appendChild(s);})();
+javascript:(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/deatu/open-tools@main/zipArchiver-dev.js';document.body.appendChild(s);})();
 ```
 
 </details>
