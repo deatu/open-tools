@@ -68,6 +68,7 @@ javascript:(function(){var s=document.createElement('script');s.src='https://dea
 | `j` | add-json | JSONからアイテム追加 |
 | `k` | check | リンク有効性チェック |
 | `m` | move-top | 選択を先頭に移動 |
+| `l` | select-json | JSONから選択状態を復元 |
 | - | match-remove | テキストマッチで非表示 |
 | - | range-toggle | 範囲選択切替 |
 | - | undo | 直前の状態に戻す |
